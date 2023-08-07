@@ -4,7 +4,7 @@ import scala.io.StdIn
 
 object Q3 {
 
-  def isPrime(num:Int):Boolean = {
+  val isPrime:Int => Boolean = (num:Int) => {
     if(num <= 1)
       false
     else if(num <= 3)
